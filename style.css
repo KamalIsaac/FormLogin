@@ -93,7 +93,7 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .login .close {
@@ -115,6 +115,15 @@ header {
 .login .form-login {
   width: 100%;
   padding: 40px;
+}
+
+.login .form-login {
+  display: none;
+}
+
+.login .form-register {
+  position: absolute;
+  transform: translateX("-400px");
 }
 
 .form-login h2 {
